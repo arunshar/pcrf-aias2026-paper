@@ -1,0 +1,876 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{59}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[Beucler et~al\mbox{.}(2021)]%
+        {beucler2021enforcing}
+\bibfield{author}{\bibinfo{person}{Tom Beucler}, \bibinfo{person}{Michael
+  Pritchard}, \bibinfo{person}{Stephan Rasp}, \bibinfo{person}{Jordan Ott},
+  \bibinfo{person}{Pierre Baldi}, {and} \bibinfo{person}{Pierre Gentine}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Enforcing Analytic Constraints in Neural Networks
+  Emulating Physical Systems}.
+\newblock \bibinfo{journal}{\emph{Physical Review Letters}}
+  \bibinfo{volume}{126}, \bibinfo{number}{9} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{098302}.
+\newblock
+\href{https://doi.org/10.1103/PhysRevLett.126.098302}{doi:\nolinkurl{10.1103/PhysRevLett.126.098302}}
+
+
+\bibitem[Bochow et~al\mbox{.}(2026)]%
+        {bochow2026physics}
+\bibfield{author}{\bibinfo{person}{Nils Bochow}, \bibinfo{person}{Philipp
+  Hess}, {and} \bibinfo{person}{Alexander Robinson}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Physics-Constrained Generative Machine
+  Learning-Based High-Resolution Downscaling of {Greenland}'s Surface Mass
+  Balance and Surface Temperature}.
+\newblock \bibinfo{journal}{\emph{The Cryosphere}} \bibinfo{volume}{20},
+  \bibinfo{number}{3} (\bibinfo{year}{2026}), \bibinfo{pages}{1841--1866}.
+\newblock
+\href{https://doi.org/10.5194/tc-20-1841-2026}{doi:\nolinkurl{10.5194/tc-20-1841-2026}}
+
+
+\bibitem[Cheng et~al\mbox{.}(2025)]%
+        {cheng2025gradient}
+\bibfield{author}{\bibinfo{person}{Chaoran Cheng}, \bibinfo{person}{Boran Han},
+  \bibinfo{person}{Danielle~C. Maddix}, \bibinfo{person}{Abdul~Fatir Ansari},
+  \bibinfo{person}{Andrew Stuart}, \bibinfo{person}{Michael~W. Mahoney}, {and}
+  \bibinfo{person}{Yuyang Wang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Gradient-Free Generation for Hard-Constrained
+  Systems}. In \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}. \bibinfo{publisher}{OpenReview.net},
+  \bibinfo{address}{Singapore}, \bibinfo{pages}{100510--100539}.
+\newblock
+
+
+\bibitem[Debeire et~al\mbox{.}(2026)]%
+        {debeire2026physics}
+\bibfield{author}{\bibinfo{person}{Kevin Debeire}, \bibinfo{person}{Ayta{\c{c}}
+  Pa{\c{c}}al}, \bibinfo{person}{Pierre Gentine}, \bibinfo{person}{Luis
+  Medrano-Navarro}, \bibinfo{person}{Nils Thuerey}, {and}
+  \bibinfo{person}{Veronika Eyring}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Physics-Constrained Adaptive Flow Matching for
+  Climate Downscaling}.
+\newblock
+\showeprint[arxiv]{2604.03459}
+
+
+\bibitem[Dinh et~al\mbox{.}(2017)]%
+        {dinh2016density}
+\bibfield{author}{\bibinfo{person}{Laurent Dinh}, \bibinfo{person}{Jascha
+  Sohl-Dickstein}, {and} \bibinfo{person}{Samy Bengio}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Density Estimation Using {Real NVP}}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}. \bibinfo{publisher}{OpenReview.net},
+  \bibinfo{address}{Toulon, France}, \bibinfo{numpages}{32}~pages.
+\newblock
+
+
+\bibitem[Dong et~al\mbox{.}(2016)]%
+        {dong2015image}
+\bibfield{author}{\bibinfo{person}{Chao Dong}, \bibinfo{person}{Chen~Change
+  Loy}, \bibinfo{person}{Kaiming He}, {and} \bibinfo{person}{Xiaoou Tang}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Image Super-Resolution Using Deep Convolutional
+  Networks}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Pattern Analysis and
+  Machine Intelligence}} \bibinfo{volume}{38}, \bibinfo{number}{2}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{295--307}.
+\newblock
+\href{https://doi.org/10.1109/TPAMI.2015.2439281}{doi:\nolinkurl{10.1109/TPAMI.2015.2439281}}
+
+
+\bibitem[Donti et~al\mbox{.}(2021)]%
+        {donti2021dc3}
+\bibfield{author}{\bibinfo{person}{Priya~L. Donti}, \bibinfo{person}{David
+  Rolnick}, {and} \bibinfo{person}{J.~Zico Kolter}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{DC3}: A Learning Method for Optimization with Hard
+  Constraints}. In \bibinfo{booktitle}{\emph{International Conference on
+  Learning Representations}}. \bibinfo{publisher}{OpenReview.net},
+  \bibinfo{address}{Virtual Event}, \bibinfo{numpages}{17}~pages.
+\newblock
+
+
+\bibitem[Drusch et~al\mbox{.}(2012)]%
+        {drusch2012sentinel}
+\bibfield{author}{\bibinfo{person}{Matthias Drusch}, \bibinfo{person}{Umberto
+  Del~Bello}, \bibinfo{person}{S{\'e}bastien Carlier}, \bibinfo{person}{Olivier
+  Colin}, \bibinfo{person}{Veronica Fernandez}, \bibinfo{person}{Ferran
+  Gascon}, \bibinfo{person}{Bianca Hoersch}, {et~al\mbox{.}}}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Sentinel-2}: {ESA}'s Optical High-Resolution
+  Mission for {GMES} Operational Services}.
+\newblock \bibinfo{journal}{\emph{Remote Sensing of Environment}}
+  \bibinfo{volume}{120} (\bibinfo{year}{2012}), \bibinfo{pages}{25--36}.
+\newblock
+\href{https://doi.org/10.1016/j.rse.2011.11.026}{doi:\nolinkurl{10.1016/j.rse.2011.11.026}}
+
+
+\bibitem[{ECMWF}(2025)]%
+        {ecmwf2025era5land}
+\bibfield{author}{\bibinfo{person}{{ECMWF}}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{ERA5-Land}: Data Documentation}}.
+\newblock Copernicus Knowledge Base.
+\newblock
+\urldef\tempurl%
+\url{https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation}
+\showURL{%
+Retrieved September 22, 2026 from \tempurl}
+\newblock
+\shownote{Last modified September 29, 2025}.
+
+
+\bibitem[{ECMWF}(2026)]%
+        {ecmwf2026era5}
+\bibfield{author}{\bibinfo{person}{{ECMWF}}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{ERA5}: Data Documentation}}.
+\newblock Copernicus Knowledge Base.
+\newblock
+\urldef\tempurl%
+\url{https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation}
+\showURL{%
+Retrieved September 22, 2026 from \tempurl}
+\newblock
+\shownote{Last modified September 8, 2026}.
+
+
+\bibitem[Farhadloo et~al\mbox{.}(2024)]%
+        {farhadloo2024spatially}
+\bibfield{author}{\bibinfo{person}{Majid Farhadloo}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Jayant Gupta}, \bibinfo{person}{Alexey Leontovich},
+  \bibinfo{person}{Svetomir~N. Markovic}, {and} \bibinfo{person}{Shashi
+  Shekhar}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Towards Spatially-Lucid {AI} Classification in
+  Non-Euclidean Space: An Application for {MxIF} Oncology Data}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2024 SIAM International
+  Conference on Data Mining}}. \bibinfo{publisher}{Society for Industrial and
+  Applied Mathematics}, \bibinfo{address}{Philadelphia, PA, USA},
+  \bibinfo{pages}{616--624}.
+\newblock
+\href{https://doi.org/10.1137/1.9781611978032.71}{doi:\nolinkurl{10.1137/1.9781611978032.71}}
+
+
+\bibitem[Farhadloo et~al\mbox{.}(2025a)]%
+        {farhadloo2025spatially}
+\bibfield{author}{\bibinfo{person}{Majid Farhadloo}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Alexey Leontovich}, \bibinfo{person}{Svetomir~N.
+  Markovic}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2025}\natexlab{a}.
+\newblock \showarticletitle{Spatially-Delineated Domain-Adapted {AI}
+  Classification: An Application for Oncology Data}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2025 SIAM International
+  Conference on Data Mining}}. \bibinfo{publisher}{Society for Industrial and
+  Applied Mathematics}, \bibinfo{address}{Philadelphia, PA, USA},
+  \bibinfo{pages}{487--496}.
+\newblock
+\href{https://doi.org/10.1137/1.9781611978520.53}{doi:\nolinkurl{10.1137/1.9781611978520.53}}
+
+
+\bibitem[Farhadloo et~al\mbox{.}(2025b)]%
+        {farhadloo2025physics}
+\bibfield{author}{\bibinfo{person}{Majid Farhadloo}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Mingzhou Yang}, \bibinfo{person}{Bharat
+  Jayaprakash}, \bibinfo{person}{William Northrop}, {and}
+  \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \showarticletitle{Towards Physics-Guided Generative Foundation
+  Models}. In \bibinfo{booktitle}{\emph{Proceedings of the 1st ACM SIGSPATIAL
+  International Workshop on Generative and Agentic AI for Multi-Modality
+  Space-Time Intelligence}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--5}.
+\newblock
+\href{https://doi.org/10.1145/3764915.3770717}{doi:\nolinkurl{10.1145/3764915.3770717}}
+
+
+\bibitem[Ghosh et~al\mbox{.}(2023a)]%
+        {ghosh2023reducing}
+\bibfield{author}{\bibinfo{person}{Subhankar Ghosh}, \bibinfo{person}{Shuai
+  An}, \bibinfo{person}{Arun Sharma}, \bibinfo{person}{Jayant Gupta},
+  \bibinfo{person}{Shashi Shekhar}, {and} \bibinfo{person}{Aneesh
+  Subramanian}.} \bibinfo{year}{2023}\natexlab{a}.
+\newblock \showarticletitle{Reducing Uncertainty in Sea-Level Rise Prediction:
+  A Spatial-Variability-Aware Approach}. In \bibinfo{booktitle}{\emph{I-GUIDE
+  Forum 2023: Harnessing the Geospatial Data Revolution for Sustainability
+  Solutions}}. \bibinfo{publisher}{Purdue University Library Publishing},
+  \bibinfo{address}{West Lafayette, IN, USA}, \bibinfo{numpages}{8}~pages.
+\newblock
+\href{https://doi.org/10.5703/1288284317665}{doi:\nolinkurl{10.5703/1288284317665}}
+
+
+\bibitem[Ghosh et~al\mbox{.}(2022)]%
+        {ghosh2022geographically}
+\bibfield{author}{\bibinfo{person}{Subhankar Ghosh}, \bibinfo{person}{Jayant
+  Gupta}, \bibinfo{person}{Arun Sharma}, \bibinfo{person}{Shuai An}, {and}
+  \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Towards Geographically Robust Statistically
+  Significant Regional Colocation Pattern Detection}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 5th ACM SIGSPATIAL International
+  Workshop on GeoSpatial Simulation}}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{11--20}.
+\newblock
+\href{https://doi.org/10.1145/3557989.3566158}{doi:\nolinkurl{10.1145/3557989.3566158}}
+
+
+\bibitem[Ghosh et~al\mbox{.}(2023b)]%
+        {ghosh2023false}
+\bibfield{author}{\bibinfo{person}{Subhankar Ghosh}, \bibinfo{person}{Jayant
+  Gupta}, \bibinfo{person}{Arun Sharma}, \bibinfo{person}{Shuai An}, {and}
+  \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2023}\natexlab{b}.
+\newblock \showarticletitle{Reducing False Discoveries in
+  Statistically-Significant Regional-Colocation Mining: A Summary of Results}.
+  In \bibinfo{booktitle}{\emph{12th International Conference on Geographic
+  Information Science (GIScience 2023)}} \emph{(\bibinfo{series}{Leibniz
+  International Proceedings in Informatics}, Vol.~\bibinfo{volume}{277})}.
+  \bibinfo{publisher}{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  \bibinfo{address}{Dagstuhl, Germany}, \bibinfo{pages}{3:1--3:18}.
+\newblock
+\href{https://doi.org/10.4230/LIPIcs.GIScience.2023.3}{doi:\nolinkurl{10.4230/LIPIcs.GIScience.2023.3}}
+
+
+\bibitem[Ghosh et~al\mbox{.}(2024a)]%
+        {ghosh2024taxonomy}
+\bibfield{author}{\bibinfo{person}{Subhankar Ghosh}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Jayant Gupta}, {and} \bibinfo{person}{Shashi
+  Shekhar}.} \bibinfo{year}{2024}\natexlab{a}.
+\newblock \showarticletitle{Towards Statistically Significant Taxonomy Aware
+  Co-Location Pattern Detection (Short Paper)}. In
+  \bibinfo{booktitle}{\emph{16th International Conference on Spatial
+  Information Theory (COSIT 2024)}} \emph{(\bibinfo{series}{Leibniz
+  International Proceedings in Informatics}, Vol.~\bibinfo{volume}{315})}.
+  \bibinfo{publisher}{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  \bibinfo{address}{Dagstuhl, Germany}, \bibinfo{pages}{25:1--25:11}.
+\newblock
+\href{https://doi.org/10.4230/LIPIcs.COSIT.2024.25}{doi:\nolinkurl{10.4230/LIPIcs.COSIT.2024.25}}
+
+
+\bibitem[Ghosh et~al\mbox{.}(2024b)]%
+        {ghosh2024kriging}
+\bibfield{author}{\bibinfo{person}{Subhankar Ghosh}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Jayant Gupta}, \bibinfo{person}{Aneesh
+  Subramanian}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2024}\natexlab{b}.
+\newblock \showarticletitle{Towards {Kriging}-Informed Conditional Diffusion
+  for Regional Sea-Level Data Downscaling: A Summary of Results}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 32nd ACM International
+  Conference on Advances in Geographic Information Systems}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{372--383}.
+\newblock
+\href{https://doi.org/10.1145/3678717.3691304}{doi:\nolinkurl{10.1145/3678717.3691304}}
+
+
+\bibitem[Goodfellow et~al\mbox{.}(2014)]%
+        {goodfellow2014generative}
+\bibfield{author}{\bibinfo{person}{Ian~J. Goodfellow}, \bibinfo{person}{Jean
+  Pouget-Abadie}, \bibinfo{person}{Mehdi Mirza}, \bibinfo{person}{Bing Xu},
+  \bibinfo{person}{David Warde-Farley}, \bibinfo{person}{Sherjil Ozair},
+  \bibinfo{person}{Aaron Courville}, {and} \bibinfo{person}{Yoshua Bengio}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Generative Adversarial Nets}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{27}. \bibinfo{publisher}{Curran Associates,
+  Inc.}, \bibinfo{address}{Red Hook, NY, USA}, \bibinfo{numpages}{9}~pages.
+\newblock
+
+
+\bibitem[Groenke et~al\mbox{.}(2020)]%
+        {groenke2020climalign}
+\bibfield{author}{\bibinfo{person}{Brian Groenke}, \bibinfo{person}{Luke
+  Madaus}, {and} \bibinfo{person}{Claire Monteleoni}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{ClimAlign}: Unsupervised Statistical Downscaling
+  of Climate Variables via Normalizing Flows}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 10th International Conference on
+  Climate Informatics}}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{60--66}.
+\newblock
+\href{https://doi.org/10.1145/3429309.3429318}{doi:\nolinkurl{10.1145/3429309.3429318}}
+
+
+\bibitem[Harder et~al\mbox{.}(2023)]%
+        {harder2023hard}
+\bibfield{author}{\bibinfo{person}{Paula Harder}, \bibinfo{person}{Alex
+  Hernandez-Garcia}, \bibinfo{person}{Venkatesh Ramesh},
+  \bibinfo{person}{Qidong Yang}, \bibinfo{person}{Prasanna Sattigeri},
+  \bibinfo{person}{Daniela Szwarcman}, \bibinfo{person}{Campbell Watson}, {and}
+  \bibinfo{person}{David Rolnick}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Hard-Constrained Deep Learning for Climate
+  Downscaling}.
+\newblock \bibinfo{journal}{\emph{Journal of Machine Learning Research}}
+  \bibinfo{volume}{24}, \bibinfo{number}{365} (\bibinfo{year}{2023}),
+  \bibinfo{pages}{1--40}.
+\newblock
+\urldef\tempurl%
+\url{https://jmlr.org/papers/v24/23-0158.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hersbach et~al\mbox{.}(2020)]%
+        {hersbach2020era5}
+\bibfield{author}{\bibinfo{person}{Hans Hersbach}, \bibinfo{person}{Bill Bell},
+  \bibinfo{person}{Paul Berrisford}, \bibinfo{person}{Shoji Hirahara},
+  \bibinfo{person}{Andr{\'a}s Hor{\'a}nyi}, \bibinfo{person}{Joaqu{\'i}n
+  Mu{\~n}oz-Sabater}, \bibinfo{person}{Julien Nicolas}, {et~al\mbox{.}}}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The {ERA5} Global Reanalysis}.
+\newblock \bibinfo{journal}{\emph{Quarterly Journal of the Royal Meteorological
+  Society}} \bibinfo{volume}{146}, \bibinfo{number}{730}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1999--2049}.
+\newblock
+\href{https://doi.org/10.1002/qj.3803}{doi:\nolinkurl{10.1002/qj.3803}}
+
+
+\bibitem[Hess et~al\mbox{.}(2022)]%
+        {hess2022physically}
+\bibfield{author}{\bibinfo{person}{Philipp Hess}, \bibinfo{person}{Markus
+  Dr{\"u}ke}, \bibinfo{person}{Stefan Petri}, \bibinfo{person}{Felix~M.
+  Strnad}, {and} \bibinfo{person}{Niklas Boers}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Physically Constrained Generative Adversarial
+  Networks for Improving Precipitation Fields from {Earth} System Models}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{4}, \bibinfo{number}{10} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{828--839}.
+\newblock
+\href{https://doi.org/10.1038/s42256-022-00540-1}{doi:\nolinkurl{10.1038/s42256-022-00540-1}}
+
+
+\bibitem[Ho et~al\mbox{.}(2020)]%
+        {ho2020denoising}
+\bibfield{author}{\bibinfo{person}{Jonathan Ho}, \bibinfo{person}{Ajay Jain},
+  {and} \bibinfo{person}{Pieter Abbeel}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Denoising Diffusion Probabilistic Models}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{33}. \bibinfo{publisher}{Curran Associates,
+  Inc.}, \bibinfo{address}{Red Hook, NY, USA}, \bibinfo{pages}{6840--6851}.
+\newblock
+
+
+\bibitem[Kingma and Dhariwal(2018)]%
+        {kingma2018glow}
+\bibfield{author}{\bibinfo{person}{Durk~P. Kingma} {and}
+  \bibinfo{person}{Prafulla Dhariwal}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Glow: Generative Flow with Invertible $1\times1$
+  Convolutions}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems}}, Vol.~\bibinfo{volume}{31}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{address}{Red Hook, NY, USA},
+  \bibinfo{numpages}{10}~pages.
+\newblock
+
+
+\bibitem[Kochkov et~al\mbox{.}(2021)]%
+        {kochkov2021machine}
+\bibfield{author}{\bibinfo{person}{Dmitrii Kochkov}, \bibinfo{person}{Jamie~A.
+  Smith}, \bibinfo{person}{Ayya Alieva}, \bibinfo{person}{Qing Wang},
+  \bibinfo{person}{Michael~P. Brenner}, {and} \bibinfo{person}{Stephan Hoyer}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Machine Learning--Accelerated Computational Fluid
+  Dynamics}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{118}, \bibinfo{number}{21}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{e2101784118}.
+\newblock
+\href{https://doi.org/10.1073/pnas.2101784118}{doi:\nolinkurl{10.1073/pnas.2101784118}}
+
+
+\bibitem[K{\"o}hler et~al\mbox{.}(2020)]%
+        {kohler2020equivariant}
+\bibfield{author}{\bibinfo{person}{Jonas K{\"o}hler}, \bibinfo{person}{Leon
+  Klein}, {and} \bibinfo{person}{Frank No{\'e}}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Equivariant Flows: Exact Likelihood Generative
+  Learning for Symmetric Densities}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 37th International Conference on Machine Learning}}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{address}{Virtual Event},
+  \bibinfo{pages}{5361--5370}.
+\newblock
+
+
+\bibitem[Lam et~al\mbox{.}(2023)]%
+        {lam2023graphcast}
+\bibfield{author}{\bibinfo{person}{Remi Lam}, \bibinfo{person}{Alvaro
+  Sanchez-Gonzalez}, \bibinfo{person}{Matthew Willson}, \bibinfo{person}{Peter
+  Wirnsberger}, \bibinfo{person}{Meire Fortunato}, \bibinfo{person}{Ferran
+  Alet}, \bibinfo{person}{Suman Ravuri}, {et~al\mbox{.}}}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Learning Skillful Medium-Range Global Weather
+  Forecasting}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{382},
+  \bibinfo{number}{6677} (\bibinfo{year}{2023}), \bibinfo{pages}{1416--1421}.
+\newblock
+\href{https://doi.org/10.1126/science.adi2336}{doi:\nolinkurl{10.1126/science.adi2336}}
+
+
+\bibitem[Ledig et~al\mbox{.}(2017)]%
+        {ledig2017photo}
+\bibfield{author}{\bibinfo{person}{Christian Ledig}, \bibinfo{person}{Lucas
+  Theis}, \bibinfo{person}{Ferenc Husz{\'a}r}, \bibinfo{person}{Jose
+  Caballero}, \bibinfo{person}{Andrew Cunningham}, \bibinfo{person}{Alejandro
+  Acosta}, \bibinfo{person}{Andrew Aitken}, {et~al\mbox{.}}}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Photo-Realistic Single Image Super-Resolution Using
+  a Generative Adversarial Network}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the IEEE Conference on Computer Vision and Pattern Recognition}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{address}{Honolulu, HI, USA},
+  \bibinfo{pages}{105--114}.
+\newblock
+\href{https://doi.org/10.1109/CVPR.2017.19}{doi:\nolinkurl{10.1109/CVPR.2017.19}}
+
+
+\bibitem[Leinonen et~al\mbox{.}(2021)]%
+        {leinonen2020stochastic}
+\bibfield{author}{\bibinfo{person}{Jussi Leinonen}, \bibinfo{person}{Daniele
+  Nerini}, {and} \bibinfo{person}{Alexis Berne}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Stochastic Super-Resolution for Downscaling
+  Time-Evolving Atmospheric Fields with a Generative Adversarial Network}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Geoscience and Remote
+  Sensing}} \bibinfo{volume}{59}, \bibinfo{number}{9} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{7211--7223}.
+\newblock
+\href{https://doi.org/10.1109/TGRS.2020.3032790}{doi:\nolinkurl{10.1109/TGRS.2020.3032790}}
+
+
+\bibitem[Lipman et~al\mbox{.}(2023)]%
+        {lipman2022flow}
+\bibfield{author}{\bibinfo{person}{Yaron Lipman}, \bibinfo{person}{Ricky T.~Q.
+  Chen}, \bibinfo{person}{Heli Ben-Hamu}, \bibinfo{person}{Maximilian Nickel},
+  {and} \bibinfo{person}{Matt Le}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Flow Matching for Generative Modeling}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}. \bibinfo{publisher}{OpenReview.net},
+  \bibinfo{address}{Kigali, Rwanda}, \bibinfo{numpages}{28}~pages.
+\newblock
+
+
+\bibitem[Liu et~al\mbox{.}(2023)]%
+        {liu2022flow}
+\bibfield{author}{\bibinfo{person}{Xingchao Liu}, \bibinfo{person}{Chengyue
+  Gong}, {and} \bibinfo{person}{Qiang Liu}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Flow Straight and Fast: Learning to Generate and
+  Transfer Data with Rectified Flow}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}. \bibinfo{publisher}{OpenReview.net},
+  \bibinfo{address}{Kigali, Rwanda}, \bibinfo{numpages}{33}~pages.
+\newblock
+
+
+\bibitem[Maraun and Widmann(2018)]%
+        {maraun2018statistical}
+\bibfield{author}{\bibinfo{person}{Douglas Maraun} {and}
+  \bibinfo{person}{Martin Widmann}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Statistical Downscaling and Bias Correction
+  for Climate Research}}.
+\newblock \bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{address}{Cambridge}.
+\newblock
+\href{https://doi.org/10.1017/9781107588783}{doi:\nolinkurl{10.1017/9781107588783}}
+
+
+\bibitem[Mardani et~al\mbox{.}(2025)]%
+        {mardani2023residual}
+\bibfield{author}{\bibinfo{person}{Morteza Mardani}, \bibinfo{person}{Noah
+  Brenowitz}, \bibinfo{person}{Yair Cohen}, \bibinfo{person}{Jaideep Pathak},
+  \bibinfo{person}{Chieh-Yu Chen}, \bibinfo{person}{Cheng-Chin Liu},
+  \bibinfo{person}{Arash Vahdat}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Residual Corrective Diffusion Modeling for km-Scale
+  Atmospheric Downscaling}.
+\newblock \bibinfo{journal}{\emph{Communications Earth \& Environment}}
+  \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{124}.
+\newblock
+\href{https://doi.org/10.1038/s43247-025-02042-5}{doi:\nolinkurl{10.1038/s43247-025-02042-5}}
+
+
+\bibitem[Mu{\~n}oz-Sabater et~al\mbox{.}(2021)]%
+        {munozsabater2021era5land}
+\bibfield{author}{\bibinfo{person}{Joaqu{\'i}n Mu{\~n}oz-Sabater},
+  \bibinfo{person}{Emanuel Dutra}, \bibinfo{person}{Anna Agust{\'i}-Panareda},
+  \bibinfo{person}{Cl{\'e}ment Albergel}, \bibinfo{person}{Gabriele Arduini},
+  \bibinfo{person}{Gianpaolo Balsamo}, \bibinfo{person}{Souhail Boussetta},
+  {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{ERA5-Land}: A State-of-the-Art Global Reanalysis
+  Dataset for Land Applications}.
+\newblock \bibinfo{journal}{\emph{Earth System Science Data}}
+  \bibinfo{volume}{13}, \bibinfo{number}{9} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{4349--4383}.
+\newblock
+\href{https://doi.org/10.5194/essd-13-4349-2021}{doi:\nolinkurl{10.5194/essd-13-4349-2021}}
+
+
+\bibitem[Perez et~al\mbox{.}(2018)]%
+        {perez2018film}
+\bibfield{author}{\bibinfo{person}{Ethan Perez}, \bibinfo{person}{Florian
+  Strub}, \bibinfo{person}{Harm de Vries}, \bibinfo{person}{Vincent Dumoulin},
+  {and} \bibinfo{person}{Aaron Courville}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{FiLM}: Visual Reasoning with a General
+  Conditioning Layer}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}} \bibinfo{volume}{32}, \bibinfo{number}{1}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{3942--3951}.
+\newblock
+\href{https://doi.org/10.1609/aaai.v32i1.11671}{doi:\nolinkurl{10.1609/aaai.v32i1.11671}}
+
+
+\bibitem[Price et~al\mbox{.}(2025)]%
+        {price2023gencast}
+\bibfield{author}{\bibinfo{person}{Ilan Price}, \bibinfo{person}{Alvaro
+  Sanchez-Gonzalez}, \bibinfo{person}{Ferran Alet}, \bibinfo{person}{Tom~R.
+  Andersson}, \bibinfo{person}{Andrew El-Kadi}, \bibinfo{person}{Dominic
+  Masters}, \bibinfo{person}{Timo Ewalds}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Probabilistic Weather Forecasting with Machine
+  Learning}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{637},
+  \bibinfo{number}{8044} (\bibinfo{year}{2025}), \bibinfo{pages}{84--90}.
+\newblock
+\href{https://doi.org/10.1038/s41586-024-08252-9}{doi:\nolinkurl{10.1038/s41586-024-08252-9}}
+
+
+\bibitem[Raissi et~al\mbox{.}(2019)]%
+        {raissi2019physics}
+\bibfield{author}{\bibinfo{person}{Maziar Raissi}, \bibinfo{person}{Paris
+  Perdikaris}, {and} \bibinfo{person}{George~E. Karniadakis}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Physics-Informed Neural Networks: A Deep Learning
+  Framework for Solving Forward and Inverse Problems Involving Nonlinear
+  Partial Differential Equations}.
+\newblock \bibinfo{journal}{\emph{J. Comput. Phys.}}  \bibinfo{volume}{378}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{686--707}.
+\newblock
+\href{https://doi.org/10.1016/j.jcp.2018.10.045}{doi:\nolinkurl{10.1016/j.jcp.2018.10.045}}
+
+
+\bibitem[Rezende and Mohamed(2015)]%
+        {rezende2015variational}
+\bibfield{author}{\bibinfo{person}{Danilo Rezende} {and}
+  \bibinfo{person}{Shakir Mohamed}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Variational Inference with Normalizing Flows}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 32nd International Conference on
+  Machine Learning}}. \bibinfo{publisher}{PMLR}, \bibinfo{address}{Lille,
+  France}, \bibinfo{pages}{1530--1538}.
+\newblock
+
+
+\bibitem[Ridal et~al\mbox{.}(2024)]%
+        {ridal2024cerra}
+\bibfield{author}{\bibinfo{person}{Martin Ridal}, \bibinfo{person}{Eric
+  Bazile}, \bibinfo{person}{Patrick Le~Moigne}, \bibinfo{person}{Roger
+  Randriamampianina}, \bibinfo{person}{Semjon Schimanke}, \bibinfo{person}{Ulf
+  Andrae}, \bibinfo{person}{Lars Berggren}, {et~al\mbox{.}}}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{CERRA}, the {Copernicus} {European} {Regional}
+  {Reanalysis} System}.
+\newblock \bibinfo{journal}{\emph{Quarterly Journal of the Royal Meteorological
+  Society}} \bibinfo{volume}{150}, \bibinfo{number}{763}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{3385--3411}.
+\newblock
+\href{https://doi.org/10.1002/qj.4764}{doi:\nolinkurl{10.1002/qj.4764}}
+
+
+\bibitem[Ronneberger et~al\mbox{.}(2015)]%
+        {ronneberger2015u}
+\bibfield{author}{\bibinfo{person}{Olaf Ronneberger}, \bibinfo{person}{Philipp
+  Fischer}, {and} \bibinfo{person}{Thomas Brox}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{U-Net}: Convolutional Networks for Biomedical
+  Image Segmentation}. In \bibinfo{booktitle}{\emph{Proceedings of the 18th
+  International Conference on Medical Image Computing and Computer-Assisted
+  Intervention}}. \bibinfo{publisher}{Springer}, \bibinfo{address}{Cham,
+  Switzerland}, \bibinfo{pages}{234--241}.
+\newblock
+\href{https://doi.org/10.1007/978-3-319-24574-4_28}{doi:\nolinkurl{10.1007/978-3-319-24574-4_28}}
+
+
+\bibitem[Sharma(2026a)]%
+        {sharma2026darkvesselnet}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}.}
+  \bibinfo{year}{2026}\natexlab{a}.
+\newblock \bibinfo{title}{{DarkVesselNet}: Multi-Modal Remote Sensing and
+  Trajectory Reasoning for Dark Vessel Detection}.
+\newblock
+\showeprint[arxiv]{2606.00445}
+
+
+\bibitem[Sharma(2026b)]%
+        {sharma2026spatial}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}.}
+  \bibinfo{year}{2026}\natexlab{b}.
+\newblock \bibinfo{title}{Spatial Atlas: Compute-Grounded Reasoning for
+  Spatial-Aware Research Agent Benchmarks}.
+\newblock
+\showeprint[arxiv]{2604.12102}
+
+
+\bibitem[Sharma et~al\mbox{.}(2025a)]%
+        {sharma2025spatial}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Majid
+  Farhadloo}, \bibinfo{person}{Mingzhou Yang}, \bibinfo{person}{Ruolei Zeng},
+  \bibinfo{person}{Subhankar Ghosh}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2025}\natexlab{a}.
+\newblock \bibinfo{title}{Spatial Distribution-Shift Aware Knowledge-Guided
+  Machine Learning}.
+\newblock
+\showeprint[arxiv]{2502.14840}
+
+
+\bibitem[Sharma et~al\mbox{.}(2024)]%
+        {sharma2024physics}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Subhankar
+  Ghosh}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Physics-Based Abnormal Trajectory Gap Detection}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Intelligent Systems and
+  Technology}} \bibinfo{volume}{15}, \bibinfo{number}{5}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{1--31}.
+\newblock
+\href{https://doi.org/10.1145/3673235}{doi:\nolinkurl{10.1145/3673235}}
+
+
+\bibitem[Sharma et~al\mbox{.}(2022a)]%
+        {sharma2022tighter}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Jayant
+  Gupta}, {and} \bibinfo{person}{Subhankar Ghosh}.}
+  \bibinfo{year}{2022}\natexlab{a}.
+\newblock \showarticletitle{Towards a Tighter Bound on Possible-Rendezvous
+  Areas: Preliminary Results}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  30th International Conference on Advances in Geographic Information
+  Systems}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--11}.
+\newblock
+\href{https://doi.org/10.1145/3557915.3561033}{doi:\nolinkurl{10.1145/3557915.3561033}}
+
+
+\bibitem[Sharma et~al\mbox{.}(2022b)]%
+        {sharma2022abnormal}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Jayant
+  Gupta}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2022}\natexlab{b}.
+\newblock \showarticletitle{Abnormal Trajectory-Gap Detection: A Summary (Short
+  Paper)}. In \bibinfo{booktitle}{\emph{15th International Conference on
+  Spatial Information Theory (COSIT 2022)}} \emph{(\bibinfo{series}{Leibniz
+  International Proceedings in Informatics}, Vol.~\bibinfo{volume}{240})}.
+  \bibinfo{publisher}{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  \bibinfo{address}{Dagstuhl, Germany}, \bibinfo{pages}{26:1--26:10}.
+\newblock
+\href{https://doi.org/10.4230/LIPIcs.COSIT.2022.26}{doi:\nolinkurl{10.4230/LIPIcs.COSIT.2022.26}}
+
+
+\bibitem[Sharma et~al\mbox{.}(2022c)]%
+        {sharma2022spatiotemporal}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Zhe Jiang},
+  {and} \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2022}\natexlab{c}.
+\newblock \bibinfo{title}{Spatiotemporal Data Mining: A Survey}.
+\newblock
+\showeprint[arxiv]{2206.12753}
+
+
+\bibitem[Sharma and Shekhar(2022)]%
+        {sharma2022analyzing}
+\bibfield{author}{\bibinfo{person}{Arun Sharma} {and} \bibinfo{person}{Shashi
+  Shekhar}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Analyzing Trajectory Gaps to Find Possible
+  Rendezvous Region}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Intelligent Systems and
+  Technology}} \bibinfo{volume}{13}, \bibinfo{number}{3}
+  (\bibinfo{year}{2022}), \bibinfo{pages}{1--23}.
+\newblock
+\href{https://doi.org/10.1145/3467977}{doi:\nolinkurl{10.1145/3467977}}
+
+
+\bibitem[Sharma et~al\mbox{.}(2020)]%
+        {sharma2020analyzing}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Xun Tang},
+  \bibinfo{person}{Jayant Gupta}, \bibinfo{person}{Majid Farhadloo}, {and}
+  \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Analyzing Trajectory Gaps for Possible Rendezvous:
+  A Summary of Results}. In \bibinfo{booktitle}{\emph{11th International
+  Conference on Geographic Information Science (GIScience 2021), Part I}}
+  \emph{(\bibinfo{series}{Leibniz International Proceedings in Informatics},
+  Vol.~\bibinfo{volume}{177})}. \bibinfo{publisher}{Schloss Dagstuhl --
+  Leibniz-Zentrum f{\"u}r Informatik}, \bibinfo{address}{Dagstuhl, Germany},
+  \bibinfo{pages}{13:1--13:16}.
+\newblock
+\href{https://doi.org/10.4230/LIPIcs.GIScience.2021.I.13}{doi:\nolinkurl{10.4230/LIPIcs.GIScience.2021.I.13}}
+
+
+\bibitem[Sharma et~al\mbox{.}(2025b)]%
+        {sharma2025physics}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Mingzhou
+  Yang}, \bibinfo{person}{Majid Farhadloo}, \bibinfo{person}{Subhankar Ghosh},
+  \bibinfo{person}{Bharat Jayaprakash}, {and} \bibinfo{person}{Shashi
+  Shekhar}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \showarticletitle{Towards Physics-Informed Diffusion for Anomaly
+  Detection in Trajectories: A Summary of Results}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2nd ACM SIGSPATIAL International
+  Workshop on Geospatial Anomaly Detection}}. \bibinfo{publisher}{Association
+  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{11--24}.
+\newblock
+\href{https://doi.org/10.1145/3764914.3770595}{doi:\nolinkurl{10.1145/3764914.3770595}}
+
+
+\bibitem[Sharma et~al\mbox{.}(2018)]%
+        {sharma2018webglobe}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Syed
+  Mohammed~Arshad Zaidi}, \bibinfo{person}{Varun Chandola},
+  \bibinfo{person}{Melissa~R. Allen}, {and} \bibinfo{person}{Budhendra~L.
+  Bhaduri}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{WebGlobe}: A Cloud-Based Geospatial Analysis
+  Framework for Interacting with Climate Data}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 7th ACM SIGSPATIAL International
+  Workshop on Analytics for Big Geospatial Data}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{42--46}.
+\newblock
+\href{https://doi.org/10.1145/3282834.3282835}{doi:\nolinkurl{10.1145/3282834.3282835}}
+
+
+\bibitem[Song et~al\mbox{.}(2021)]%
+        {song2021score}
+\bibfield{author}{\bibinfo{person}{Yang Song}, \bibinfo{person}{Jascha
+  Sohl-Dickstein}, \bibinfo{person}{Diederik~P. Kingma},
+  \bibinfo{person}{Abhishek Kumar}, \bibinfo{person}{Stefano Ermon}, {and}
+  \bibinfo{person}{Ben Poole}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Score-Based Generative Modeling through Stochastic
+  Differential Equations}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations}}.
+  \bibinfo{publisher}{OpenReview.net}, \bibinfo{address}{Virtual Event},
+  \bibinfo{numpages}{36}~pages.
+\newblock
+
+
+\bibitem[Stengel et~al\mbox{.}(2020)]%
+        {stengel2020adversarial}
+\bibfield{author}{\bibinfo{person}{Karen Stengel}, \bibinfo{person}{Andrew
+  Glaws}, \bibinfo{person}{Dylan Hettinger}, {and} \bibinfo{person}{Ryan~N.
+  King}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Adversarial Super-Resolution of Climatological Wind
+  and Solar Data}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{117}, \bibinfo{number}{29}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{16805--16815}.
+\newblock
+\href{https://doi.org/10.1073/pnas.1918964117}{doi:\nolinkurl{10.1073/pnas.1918964117}}
+
+
+\bibitem[Utkarsh et~al\mbox{.}(2025)]%
+        {utkarsh2025physics}
+\bibfield{author}{\bibinfo{person}{Utkarsh Utkarsh}, \bibinfo{person}{Pengfei
+  Cai}, \bibinfo{person}{Alan Edelman}, \bibinfo{person}{Rafael
+  Gomez-Bombarelli}, {and} \bibinfo{person}{Christopher~Vincent Rackauckas}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Physics-Constrained Flow Matching: Sampling
+  Generative Models with Hard Constraints}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{38}. \bibinfo{publisher}{Curran Associates,
+  Inc.}, \bibinfo{address}{Red Hook, NY, USA}, \bibinfo{pages}{177845--177880}.
+\newblock
+\href{https://doi.org/10.52202/085713-5354}{doi:\nolinkurl{10.52202/085713-5354}}
+
+
+\bibitem[Vandal et~al\mbox{.}(2017)]%
+        {vandal2017deepsd}
+\bibfield{author}{\bibinfo{person}{Thomas Vandal}, \bibinfo{person}{Evan
+  Kodra}, \bibinfo{person}{Sangram Ganguly}, \bibinfo{person}{Andrew
+  Michaelis}, \bibinfo{person}{Ramakrishna Nemani}, {and}
+  \bibinfo{person}{Auroop~R. Ganguly}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{DeepSD}: Generating High Resolution Climate Change
+  Projections through Single Image Super-Resolution}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 23rd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1663--1672}.
+\newblock
+\href{https://doi.org/10.1145/3097983.3098004}{doi:\nolinkurl{10.1145/3097983.3098004}}
+
+
+\bibitem[Yang et~al\mbox{.}(2025)]%
+        {yang2025geolucid}
+\bibfield{author}{\bibinfo{person}{Mingzhou Yang}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Majid Farhadloo}, \bibinfo{person}{Bharat
+  Jayaprakash}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Geo-Lucid Conditional Diffusion Models for High
+  Physical Fidelity Trajectory Generation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 33rd ACM International
+  Conference on Advances in Geographic Information Systems}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{382--395}.
+\newblock
+\href{https://doi.org/10.1145/3748636.3762749}{doi:\nolinkurl{10.1145/3748636.3762749}}
+
+
+\bibitem[Zeng et~al\mbox{.}(2025)]%
+        {zeng2025finetuning}
+\bibfield{author}{\bibinfo{person}{Ruolei Zeng}, \bibinfo{person}{Arun Sharma},
+  \bibinfo{person}{Shuai An}, \bibinfo{person}{Mingzhou Yang},
+  \bibinfo{person}{Shengya Zhang}, \bibinfo{person}{Licheng Liu},
+  \bibinfo{person}{David Mulla}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Towards Fine-Tuning-Based Site Calibration for
+  Knowledge-Guided Machine Learning: A Summary of Results}.
+\newblock
+\showeprint[arxiv]{2512.16013}
+
+
+\bibitem[Zhang et~al\mbox{.}(2025)]%
+        {zhang2025surrogate}
+\bibfield{author}{\bibinfo{person}{Shengya Zhang}, \bibinfo{person}{Arun
+  Sharma}, \bibinfo{person}{Majid Farhadloo}, \bibinfo{person}{Mingzhou Yang},
+  \bibinfo{person}{Ruolei Zeng}, \bibinfo{person}{Subhankar Ghosh},
+  \bibinfo{person}{Yao Zhang}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Towards Surrogate Models with Hybrid Spatial Neural
+  Networks: A Summary of Results}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 8th ACM SIGSPATIAL International Workshop on Geospatial Simulation}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{57--69}.
+\newblock
+\href{https://doi.org/10.1145/3764921.3770153}{doi:\nolinkurl{10.1145/3764921.3770153}}
+
+
+\end{thebibliography}

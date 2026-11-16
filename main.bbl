@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{59}
+\begin{thebibliography}{64}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -39,6 +39,21 @@
 \@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
 \@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
 \makeatother
+
+\bibitem[An et~al\mbox{.}(2025)]%
+        {an2025super}
+\bibfield{author}{\bibinfo{person}{Shuai An}, \bibinfo{person}{Shesha Sai
+  Kumar~Reddy Sadu}, \bibinfo{person}{Arun Sharma}, \bibinfo{person}{Majid
+  Farhadloo}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Discovering Super-Colocation Patterns: A Summary of
+  Results}. In \bibinfo{booktitle}{\emph{Proceedings of the 19th International
+  Symposium on Spatial and Temporal Data}}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{34--38}.
+\newblock
+\href{https://doi.org/10.1145/3748777.3748790}{doi:\nolinkurl{10.1145/3748777.3748790}}
+
 
 \bibitem[Beucler et~al\mbox{.}(2021)]%
         {beucler2021enforcing}
@@ -326,6 +341,19 @@ Retrieved September 22, 2026 from \tempurl}
   Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{60--66}.
 \newblock
 \href{https://doi.org/10.1145/3429309.3429318}{doi:\nolinkurl{10.1145/3429309.3429318}}
+
+
+\bibitem[Gupta and Sharma(2022)]%
+        {gupta2022taxonomy}
+\bibfield{author}{\bibinfo{person}{Jayant Gupta} {and} \bibinfo{person}{Arun
+  Sharma}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Mining Taxonomy-Aware Colocations: A Summary of
+  Results}. In \bibinfo{booktitle}{\emph{Proceedings of the 30th International
+  Conference on Advances in Geographic Information Systems}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--11}.
+\newblock
+\href{https://doi.org/10.1145/3557915.3561034}{doi:\nolinkurl{10.1145/3557915.3561034}}
 
 
 \bibitem[Harder et~al\mbox{.}(2023)]%
@@ -645,6 +673,21 @@ Retrieved September 22, 2026 from \tempurl}
 \showeprint[arxiv]{2604.12102}
 
 
+\bibitem[Sharma et~al\mbox{.}(2022a)]%
+        {sharma2022covid}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Majid
+  Farhadloo}, \bibinfo{person}{Yan Li}, \bibinfo{person}{Jayant Gupta},
+  \bibinfo{person}{Aditya Kulkarni}, {and} \bibinfo{person}{Shashi Shekhar}.}
+  \bibinfo{year}{2022}\natexlab{a}.
+\newblock \showarticletitle{Understanding {COVID-19} Effects on Mobility: A
+  Community-Engaged Approach}.
+\newblock \bibinfo{journal}{\emph{AGILE: GIScience Series}}
+  \bibinfo{volume}{3}, Article \bibinfo{articleno}{14} (\bibinfo{year}{2022}),
+  \bibinfo{numpages}{15}~pages.
+\newblock
+\href{https://doi.org/10.5194/agile-giss-3-14-2022}{doi:\nolinkurl{10.5194/agile-giss-3-14-2022}}
+
+
 \bibitem[Sharma et~al\mbox{.}(2025a)]%
         {sharma2025spatial}
 \bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Majid
@@ -670,11 +713,11 @@ Retrieved September 22, 2026 from \tempurl}
 \href{https://doi.org/10.1145/3673235}{doi:\nolinkurl{10.1145/3673235}}
 
 
-\bibitem[Sharma et~al\mbox{.}(2022a)]%
+\bibitem[Sharma et~al\mbox{.}(2022b)]%
         {sharma2022tighter}
 \bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Jayant
   Gupta}, {and} \bibinfo{person}{Subhankar Ghosh}.}
-  \bibinfo{year}{2022}\natexlab{a}.
+  \bibinfo{year}{2022}\natexlab{b}.
 \newblock \showarticletitle{Towards a Tighter Bound on Possible-Rendezvous
   Areas: Preliminary Results}. In \bibinfo{booktitle}{\emph{Proceedings of the
   30th International Conference on Advances in Geographic Information
@@ -684,11 +727,11 @@ Retrieved September 22, 2026 from \tempurl}
 \href{https://doi.org/10.1145/3557915.3561033}{doi:\nolinkurl{10.1145/3557915.3561033}}
 
 
-\bibitem[Sharma et~al\mbox{.}(2022b)]%
+\bibitem[Sharma et~al\mbox{.}(2022c)]%
         {sharma2022abnormal}
 \bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Jayant
   Gupta}, {and} \bibinfo{person}{Shashi Shekhar}.}
-  \bibinfo{year}{2022}\natexlab{b}.
+  \bibinfo{year}{2022}\natexlab{c}.
 \newblock \showarticletitle{Abnormal Trajectory-Gap Detection: A Summary (Short
   Paper)}. In \bibinfo{booktitle}{\emph{15th International Conference on
   Spatial Information Theory (COSIT 2022)}} \emph{(\bibinfo{series}{Leibniz
@@ -699,13 +742,28 @@ Retrieved September 22, 2026 from \tempurl}
 \href{https://doi.org/10.4230/LIPIcs.COSIT.2022.26}{doi:\nolinkurl{10.4230/LIPIcs.COSIT.2022.26}}
 
 
-\bibitem[Sharma et~al\mbox{.}(2022c)]%
+\bibitem[Sharma et~al\mbox{.}(2022d)]%
         {sharma2022spatiotemporal}
 \bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Zhe Jiang},
-  {and} \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2022}\natexlab{c}.
+  {and} \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2022}\natexlab{d}.
 \newblock \bibinfo{title}{Spatiotemporal Data Mining: A Survey}.
 \newblock
 \showeprint[arxiv]{2206.12753}
+
+
+\bibitem[Sharma et~al\mbox{.}(2021)]%
+        {sharma2021safegraph}
+\bibfield{author}{\bibinfo{person}{Arun Sharma}, \bibinfo{person}{Yan Li},
+  {and} \bibinfo{person}{Shashi Shekhar}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{SafeGraph} Data Analysis to Assess
+  {COVID-19} Effects on {Minnesota} Mobility}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Center
+  for Transportation Studies, University of Minnesota},
+  \bibinfo{address}{Minneapolis, MN, USA}.
+\newblock
+\newblock
+\shownote{Impacts of the {COVID-19} Pandemic on {Minnesota}'s Traffic and
+  Transit Networks}.
 
 
 \bibitem[Sharma and Shekhar(2022)]%
@@ -842,6 +900,22 @@ Retrieved September 22, 2026 from \tempurl}
   \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{382--395}.
 \newblock
 \href{https://doi.org/10.1145/3748636.3762749}{doi:\nolinkurl{10.1145/3748636.3762749}}
+
+
+\bibitem[Yang et~al\mbox{.}(2024)]%
+        {yang2024routing}
+\bibfield{author}{\bibinfo{person}{Mingzhou Yang}, \bibinfo{person}{Ruolei
+  Zeng}, \bibinfo{person}{Arun Sharma}, \bibinfo{person}{Shunichi Sawamura},
+  \bibinfo{person}{William~F. Northrop}, {and} \bibinfo{person}{Shashi
+  Shekhar}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Towards {Pareto}-Optimality with Multi-Level
+  Bi-Objective Routing: A Summary of Results}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 17th ACM SIGSPATIAL
+  International Workshop on Computational Transportation Science}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{36--45}.
+\newblock
+\href{https://doi.org/10.1145/3681772.3698215}{doi:\nolinkurl{10.1145/3681772.3698215}}
 
 
 \bibitem[Zeng et~al\mbox{.}(2025)]%
